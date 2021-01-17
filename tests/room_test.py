@@ -44,8 +44,15 @@ class TestRoom(unittest.TestCase):
     def test_room_has_till(self):
        self.assertEqual(100, self.room.till)
 
-    def test_queue(self):
-        
+    # def test_guest_can_buy_entry_cost(self):   # does this goes here or in guest?
+    #     self.guest.can_buy_entry(self.entry_cost)
+    #     self.assertEqual(20, self.guest.wallet)
+
+ 
+    # def test_queue(self):
+    #     if self.capacity > 3:
+    #         return "Capacity full, please wait"
+
 
     
     

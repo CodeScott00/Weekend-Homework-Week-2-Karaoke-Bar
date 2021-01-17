@@ -24,6 +24,14 @@ class Room:
         self.playlist.append(song)
 
     
+    # def can_buy_entry(self, entry_cost):
+    #     if self.guest.wallet <= self.entry_cost:
+    #         self.guest.wallet.remove(self.entry_cost)
+    #     return   self.room.till += self.guest.wallet
+            
+            
+
+    
     
     
     
